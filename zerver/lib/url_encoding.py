@@ -1,5 +1,5 @@
-import urllib.parse
 from typing import Any
+import urllib.parse
 from urllib.parse import urlsplit
 
 import re2
@@ -19,6 +19,8 @@ hash_replacements = {
 def encode_hash_component(s: str) -> str:
     encoded = urllib.parse.quote(s, safe="*")
     return "".join(hash_replacements.get(c, c) for c in encoded)
+
+
 
 
 def encode_channel(channel_id: int, channel_name: str, with_operator: bool = False) -> str:
