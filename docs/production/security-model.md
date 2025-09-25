@@ -37,7 +37,7 @@ details on Zulip's available authentication methods.
 
 Every Zulip user has an API key, which can be used to do essentially everything
 that users can do when they're logged in. Make sure users know to immediately
-[reset their API key and password](/help/protect-your-account/)
+reset their API key and password(see the “Protect your account” article in the Help Center).
 if their credentials are compromised (e.g., their cell phone is lost or stolen).
 
 ## 4. Become familiar with Zulip's access management model.
